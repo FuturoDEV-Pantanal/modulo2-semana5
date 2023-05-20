@@ -22,7 +22,6 @@ public class DepartamentoService {
 
 
 
-
     public Departamento salvar(Departamento departamento){
 
         log.info("Cadastrando o departamento nome {} e descrição {} no sistema.", departamento.getNome(),

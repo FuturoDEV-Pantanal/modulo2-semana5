@@ -6,7 +6,6 @@
 
     <!--Propriedade onde será definido o local onde serão salvos os logs-->
     <springProperty name="LOGS" source="dir.logs"/>
-    <springProperty name="LEVEL" source="log.level"/>
 
 <!--    Propriedade para pegar o valor do token no appliacation.proprierts-->
     <springProperty name="logglyToken" source="logging.loggly.token"/>
@@ -58,12 +57,15 @@
         </encoder>
     </appender>
 
-<!--    Configura o log de forma assincrona-->
+
+
+
+    <!--    Configura o log de forma assincrona-->
     <appender name="logglyAsync" class="ch.qos.logback.classic.AsyncAppender">
         <appender-ref ref="loggly"/>
     </appender>
 
-    <root level="${LEVEL}">
+    <root level="info">
         <appender-ref ref="logglyAsync"/>
         <appender-ref ref="RollingFile"/>
         <appender-ref ref="HTML"/>

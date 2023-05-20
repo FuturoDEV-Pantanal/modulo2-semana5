@@ -19,6 +19,7 @@ public class DepartamentoController {
 
     @PostMapping
     public ResponseEntity<Departamento> salvar(@RequestBody Departamento departamento) {
+       // departamento = null;
         Departamento depto = departamentoService.salvar(departamento);
         return new ResponseEntity<Departamento>(depto, HttpStatus.CREATED);
     }
