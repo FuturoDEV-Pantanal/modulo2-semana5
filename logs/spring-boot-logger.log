@@ -1978,3 +1978,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "funcionario" does
 2023-05-19 21:58:22,293 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-05-19 21:58:22,294 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Initializing Servlet 'dispatcherServlet'
 2023-05-19 21:58:22,295 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed initialization in 1 ms
+2023-05-19 22:06:36,399 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 22:06:36,399 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-05-19 22:06:36,426 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-19 22:06:36,426 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
