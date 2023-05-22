@@ -44,7 +44,6 @@ Tópicos abordados em aulas anteriores foram revisados e exercitados ao longo do
         - DELETE: deletar recursos.
 
 - Deploy:
-    - estratégias,
     - empacotamento do projeto com maven para deploy em servidor local e na nuvem,
 
 - Logging:
