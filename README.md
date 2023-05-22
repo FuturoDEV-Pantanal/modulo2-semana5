@@ -20,7 +20,7 @@ Tópicos abordados em aulas anteriores foram revisados e exercitados ao longo do
 - Banco de dados:
     - elaboração do modelo lógico relacional do domínio do projeto
 
-   <img src="https://github.com/FuturoDEV-Pantanal/modulo2-semana5/blob/main/src/main/resources/doc/modelo_entidade_relacionamento.png" > <br> <sub> Diagrama Entidade Relacionamento (ER) do projeto Módulo RH </sub>
+   <img src="https://github.com/FuturoDEV-Pantanal/modulo2-semana5/blob/master/src/main/resources/modelo_entidade_relacionamento.png" > <br> <sub> Diagrama Entidade Relacionamento (ER) do projeto Módulo RH </sub>
 
 - Spring Boot:
     - criação do pojeto utilizando o Spring Initilizr,
